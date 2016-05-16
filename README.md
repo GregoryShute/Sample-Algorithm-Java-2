@@ -2,6 +2,22 @@ Keep in mind that this project was done quickly so code quality may be non optim
 
 Description:
 
+This program takes a graph and checks if it is 2 colorable. If it is it will print a list of each node along with a color.
+
+Input file would look something like this:
+
+6  
+0 1  
+3 4  
+1 3  
+3 1  
+1 2  
+6 7
+
+The number of edges is on the first line and the list of edges follow.
+It is fine if there are disconnected portions.
+
+
 My algorithm has three basic steps.
  
 (1)The first step is to build an adjacency list out of the input file. The input file is a list of edges. I made an array of what I call adjacency list nodes to be the headers of the adjacency list. I made this array the size of the number of vertices specified at the top of the input file. The array is useful because it allows me to index into a vertex and update it in constant time. I loop through the input file and place the two vertices on that line into the adjacency list. 
