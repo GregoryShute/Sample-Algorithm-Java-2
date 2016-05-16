@@ -1,3 +1,5 @@
+Keep in mind that this project was done quickly so code quality may be non optimal.
+
 Description:
 
 My algorithm has three basic steps.
